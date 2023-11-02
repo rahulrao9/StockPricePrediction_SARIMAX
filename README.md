@@ -4,7 +4,7 @@ Welcome to the StockPricePrediction_SARIMAX repository! This project is a compre
 
 ## Data
 We work with a dataset provided in the train.csv file, which contains crucial financial information such as open, close, volume, and a strategy column.
-Our objective is to predict the best strategy for the test data based on forecasted close prices and other feature columns.
+Our objective is to predict the best strategy (Buy, Sell, Hold) for the test data based on forecasted close prices and other feature columns.
 ## Feature Engineering
 For close price prediction using SARIMAX, we have meticulously engineered a set of features to enhance our model's performance. These features include:
 
