@@ -7,7 +7,7 @@ We work with a dataset provided in the train.csv file, which contains crucial fi
 Our objective is to predict the best strategy for the test data based on forecasted close prices and other feature columns.
 ## Feature Engineering
 For close price prediction using SARIMAX, we have meticulously engineered a set of features to enhance our model's performance. These features include:
-''' 
+
 > Percentage change of open and close prices (Open_pct_change, Volume_pct_change)
 > Lagged percentage changes (Open_pct_change_lag1, Volume_pct_change_lag1, ..., Open_pct_change_lag7, Volume_pct_change_lag7)
 > Rolling means (Open_rolling_mean, Volume_rolling_mean)
@@ -15,7 +15,7 @@ For close price prediction using SARIMAX, we have meticulously engineered a set 
 > Moving averages (Open_moving_average, Volume_moving_average)
 > Temporal features (year, month, day)
 > Decomposition components of open and volume, including trend, seasonal, and residual components (Open_trend, Open_seasonal, Open_residual, Volume_trend, Volume_seasonal, Volume_residual)
-'''
+
 
 ## SARIMAX Forecasting
 We employ the SARIMAX model to forecast close prices, using the feature-engineered variables as exogenous factors. The primary prediction variable is "close."
