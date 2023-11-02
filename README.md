@@ -8,13 +8,13 @@ Our objective is to predict the best strategy for the test data based on forecas
 ## Feature Engineering
 For close price prediction using SARIMAX, we have meticulously engineered a set of features to enhance our model's performance. These features include:
 ''' 
-# Percentage change of open and close prices (Open_pct_change, Volume_pct_change)
-# Lagged percentage changes (Open_pct_change_lag1, Volume_pct_change_lag1, ..., Open_pct_change_lag7, Volume_pct_change_lag7)
-# Rolling means (Open_rolling_mean, Volume_rolling_mean)
-# Differences (Open_diff, Volume_diff)
-# Moving averages (Open_moving_average, Volume_moving_average)
-# Temporal features (year, month, day)
-# Decomposition components of open and volume, including trend, seasonal, and residual components (Open_trend, Open_seasonal, Open_residual, Volume_trend, Volume_seasonal, Volume_residual)
+ Percentage change of open and close prices (Open_pct_change, Volume_pct_change)
+ Lagged percentage changes (Open_pct_change_lag1, Volume_pct_change_lag1, ..., Open_pct_change_lag7, Volume_pct_change_lag7)
+ Rolling means (Open_rolling_mean, Volume_rolling_mean)
+ Differences (Open_diff, Volume_diff)
+ Moving averages (Open_moving_average, Volume_moving_average)
+ Temporal features (year, month, day)
+ Decomposition components of open and volume, including trend, seasonal, and residual components (Open_trend, Open_seasonal, Open_residual, Volume_trend, Volume_seasonal, Volume_residual)
 '''
 
 ## SARIMAX Forecasting
@@ -38,4 +38,4 @@ To explore the code and replicate the experiments, follow the instructions provi
 Feel free to contribute by opening issues, suggesting improvements, or submitting pull requests.
 
 ## Credits
-This project was developed by [rahulrao9] and [Hemabhushan-r], inspired by a passion for financial analytics and machine learning.
+This project was developed by [Rahul Rao](https://github.com/rahulrao9) and [Hemabhushan R](https://github.com/Hemabhushan-r), inspired by a passion for financial analytics and machine learning.
