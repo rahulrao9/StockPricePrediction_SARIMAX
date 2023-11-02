@@ -1,6 +1,6 @@
 # Stock Price Prediction and Strategy
 ## Overview
-Welcome to the StockPricePrediction_SARIMAX repository! This project is a comprehensive exploration of stock price prediction and the formulation of winning trading strategies. We leverage SARIMAX for close price prediction and employ a wide array of features for improved forecasting accuracy.
+Welcome to the Stock Price Prediction using SARIMAX repository! This project is a comprehensive exploration of stock price prediction and the formulation of winning trading strategies. We leverage SARIMAX for close price prediction and employ a wide array of features for improved forecasting accuracy.
 
 ## Data
 We work with a dataset provided in the train.csv file, which contains crucial financial information such as open, close, volume, and a strategy column.
