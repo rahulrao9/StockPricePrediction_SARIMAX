@@ -29,7 +29,7 @@ Machine learning models, including Support Vector Classifier (SVC), XGBoost Voti
 
 ## Additional Insights
 This repository showcases an in-depth analysis of the stock market, combining traditional time series forecasting techniques with machine learning approaches for strategy optimization.
-Our experiments with a diverse set of prediction and trading strategies provide valuable insights for both beginners and experienced traders.
+Our experiments with a diverse set of prediction and trading strategies provide valuable insights of stocks.
 
 ## Usage
 To explore the code and replicate the experiments, follow the instructions provided in the repository.
